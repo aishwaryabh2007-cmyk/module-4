@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.app {
+  text-align: center;
+  padding: 50px;
+}
+
+.app h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.marks-card {
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.marks-card h2 {
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+.marks-card p {
+  font-size: 18px;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.marks {
+  font-size: 24px !important;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
