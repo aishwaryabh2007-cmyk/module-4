@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.app {
+  padding: 40px;
+  text-align: center;
+}
+
+.app h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #2563eb;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+tr:hover {
+  background-color: #e8f0ff;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+  color: #2563eb;
+}
+
+.error {
+  text-align: center;
+  margin-top: 100px;
+  color: red;
+}
